@@ -1,0 +1,136 @@
+.edit-profile .btn-edit-banner {
+  padding: 8px 14px;
+  border-radius: 100px;
+  background: #6fa8ff;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fcfcfd;
+  border: 0px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.edit-profile .btn-edit-profile {
+  width: 35px;
+  height: 35px;
+  padding: 7px;
+  background: #1189f4;
+  border-radius: 87.5px;
+  border: 0px;
+  color: #f1f5ff;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.edit-profile .text-lg {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #1189f4;
+  margin-bottom: 0px;
+}
+.edit-profile .text-sm {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #475467;
+  margin-bottom: 0px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+.edit-profile .text-sm-2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #475467;
+  margin-bottom: 0px;
+}
+.edit-profile .text-sm-3 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #344054;
+}
+.edit-profile input {
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: #fcfcfd;
+  border: 1px solid #d0d5dd;
+  outline: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+}
+.edit-profile .btn-submit {
+  width: 354px;
+  margin: 0px auto;
+  padding: 8px 0px;
+  border-radius: 100px;
+  background: #1189f4;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fcfcfd;
+  border: 0px;
+}
+.edit-profile .banner{
+    width: 100%;
+    border-radius: 20px;
+}
+.edit-profile .edit-icon svg, .edit-profile .edit-icon-2 svg{
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (max-width:768px) {
+    .edit-profile .banner{
+       height: auto;
+    }
+}
+@media screen and (max-width:576px) {
+    .edit-profile .btn-edit-banner{
+      padding: 4px 8px;
+      font-size: 10px;
+      bottom: 5px;
+      right: 5px;
+    }
+    .edit-profile .edit-icon svg{
+      width: 18px;
+      height: 18px;
+    }
+    .edit-profile .edit-icon-2 svg{
+      width: 12px;
+      height: auto;
+    }
+    .edit-profile .profile-img{
+      width: 40px;
+      height: 40px;
+    }
+    .edit-profile .btn-edit-profile{
+      width: 20px;
+      height: 20px;
+      top: 20px;
+      padding: 0px;
+    }
+    .edit-profile .text-lg{
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .edit-profile .text-sm{
+      font-size: 12px;
+    }
+    .edit-profile .text-sm-2{
+      font-size: 12px;
+    }
+    .edit-profile .gift-icon,.edit-profile .calender-icon{
+      width: 18px;
+      height: 18px;
+    }
+    .edit-profile .btn-submit{
+      width: 100%;
+    }
+}

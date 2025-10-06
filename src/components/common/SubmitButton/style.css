@@ -1,0 +1,13 @@
+.btn-submit {
+  height: 45px;
+  padding: 10px 18px;
+  border-radius: 100px;
+  background: var(--blue-color);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--white-color);
+  border: 0px;
+}
+.btn-submit:hover{
+  background: var(--darkblue-color);
+}

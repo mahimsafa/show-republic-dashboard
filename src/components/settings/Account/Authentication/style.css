@@ -1,0 +1,38 @@
+.authentication .text-md {
+  font-size: 18px;
+  font-weight: 500;
+  color: #475467;
+  margin-bottom: 0px;
+}
+.authentication .btn-submit {
+  border-radius: 100px;
+  padding: 8px 14px;
+  background: #1189f4;
+  border: 0px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fcfcfd;
+}
+.authentication .custom-card {
+  padding: 20px;
+  border-radius: 20px;
+  background: #fcfcfd;
+}
+
+.authentication .text-sm {
+  font-size: 14px;
+  font-weight: 500;
+  color: #475467;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 576px) {
+  .authentication .custom-card {
+    padding: 0px;
+    background: none;
+    border-radius: 0px;
+  }
+  .authentication .btn-submit {
+    width: 100%;
+    padding: 8px 0px;
+  }
+}

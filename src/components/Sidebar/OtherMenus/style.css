@@ -1,0 +1,38 @@
+/* account.css */
+
+.other-menu {
+  background: var(--card-color);
+  border-radius: 40px;
+  padding: 20px;
+}
+.other-menu .menus .menu {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--heading-color);
+  width: 100%;
+  background: none;
+}
+
+.other-menu .menus .menu:hover {
+  color: var(--primary-color);
+  background: var(--hover-color);
+  border-radius: 20px;
+}
+
+.other-menu .menus .logout {
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+  color: var(--danger-color);
+}
+.other-menu .menus .logout:hover {
+  background: var(--hover-color-danger);
+  border-radius: 20px;
+}
+
+.other-menu .menus .link-active,
+.other-menu .menus .link-active .icon,
+.other-menu .menus .menu.active,
+.other-menu .menus .menu:hover .icon {
+  color: var(--primary-color);
+}

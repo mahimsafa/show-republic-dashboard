@@ -1,0 +1,16 @@
+.tab {
+  padding: 6px 16px;
+  border-radius: 25.4px;
+  font-size: 12px;
+  font-weight: 500;
+  background: var(--card-color);
+  color: var(--heading-color);
+}
+
+.tab.active {
+  background: var(--primary-color);
+  color: #fcfcfd;
+  border: 0px !important;
+  padding: 7px 17px;
+}
+

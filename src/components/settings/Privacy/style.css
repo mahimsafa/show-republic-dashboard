@@ -1,0 +1,31 @@
+/* style.css */
+.privacy .custom-card {
+  padding: 20px;
+  border-radius: 20px;
+  background: #fcfcfd;
+}
+.privacy .text-md {
+  font-size: 18px;
+  font-weight: 500;
+  color: #475467;
+  margin-bottom: 0px;
+}
+.privacy .text-md-2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #475467;
+  margin-bottom: 0px;
+}
+.privacy .text-sm {
+  font-size: 12px;
+  font-weight: 400;
+  color: #475467;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .privacy .custom-card {
+    background: none;
+    padding: 0px;
+  }
+}

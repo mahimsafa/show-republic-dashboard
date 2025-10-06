@@ -1,0 +1,13 @@
+.user-profile .text-sm {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin-bottom: 0px;
+}
+
+.user-profile .text-sm-2 {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-color);
+  margin-bottom: 0px;
+}

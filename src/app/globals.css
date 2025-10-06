@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Theme (default) */
+:root {
+  --background-color: #fcfcfd;
+  --active-color: #CFDEFF;
+  --heading-color: #475467;
+  --card-color: #f2f4f7;
+  --text-color: #667085;
+  --primary-color: #1189f4;
+  --danger-color: #f04438;
+  --warning-color: #dc6803;
+  --white-color: #ffffff;
+  --label-color: #344054;
+  --blue-color: #6fa8ff;  
+  --darkblue-color: #3777f6; 
+  --black-color: #000000;
+  --purple-color: #9f5fd8;
+  --green-color: #12B76A;
+  --border-color: #D9D9D9;
+  --hover-color: #F1F5FF;
+  --hover-color-danger: #fee4e2;
+  --tag-color: #D9D9D9;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --background-color: #1d2939;
+  --card-color: #091422;
+  --heading-color: #fcfcfd;
+  --text-color: #fcfcfd;
+  --border-color: #fcfcfd;
+  --hover-color: #032341;
+  --hover-color-danger: #362c29;
+  --label-color: #fcfcfd;
+  --tag-color: #1d2939;
+}
+
+a {
+  text-decoration: none !important;
+}
+li {
+  list-style-type: none;
+}
+body {
+  background-color: var(--background-color) !important;
+  color: var(--text-color);
+  overflow-y: hidden;
+  position: relative;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.overflow-y {
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+  padding-bottom: 150px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.overflow-y::-webkit-scrollbar {
+  display: none;
+}
+/* Custom styles for dashboard's Header */
+.custom-dashboard-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  height: 40px !important;
+  padding: 10px !important;
+  width: 100%;
+}
+
+.custom-dashboard-header .text-lg {
+  font-weight: 500 !important;
+  font-size: 18px !important;
+}
+
+.custom-dashboard-searchbar {
+  background-color: #EBEDEE !important;
+  width: 35% !important; 
+  border-radius: 20px;
+  margin-top: 10px;
+  input {
+    font-size: 14px !important;
+    color: var(--text-color) !important;
+  }
+  input::placeholder {
+    font-size: 14px !important;
+    color: #C6C7C9 !important;
+  }
+}
+.searchbar .input-container {
+  height: 44px !important;
+  border-radius: 27px !important;
+}
+.searchbar .input-container button {
+  background-color: transparent !important;
+  border: none !important;
+  cursor: pointer;
+}
+
+.searchbar .input-container button svg {
+  width: 16px !important;
+  height: 16px !important;
+  color: #C6C7C9 !important;
+}
+
+.header .text-lg {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+
+.lofty-message-box, .lofty-message-error {
+  display: block;
+  position: fixed;
+  top: 20px;
+  right: -300px;
+  min-width: 150px;
+  max-width: 300px;
+  min-height: 60px;
+  padding: 20px;
+  background: #0908;
+  border-radius: 2px;
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  z-index: 9999999999999999;
+  animation: slideMessage 5s linear 1;
+}
+
+.lofty-message-box::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 0%;
+  height: 4px;
+  background-color: #090;
+  height: 2px;
+  animation: timeIndicator 5s linear 1;
+}
+.lofty-message-error::after {
+  background-color: #900;
+}
+
+@keyframes timeIndicator {
+  0% {
+      width: 100%;
+  }
+  93% {
+      width: 0%;
+  }
+  100% {
+      width: 0%;
+  }
+}
+
+.lofty-message-error {
+  background: #9008;
+}
+
+@keyframes slideMessage {
+  0% {
+      right: -300px;
+  }
+  5% {
+      right: 20px;
+  }
+  93% {
+      right: 20px;
+  }
+  98% {
+      right: 40px;
+  }
+  100% {
+      right: -300px;
+  }
+}

@@ -1,0 +1,12 @@
+.text-area {
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: var(--background-color);
+  border: 1px solid var(--border-color);
+  outline: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--text-color);
+  width: 100%;
+}

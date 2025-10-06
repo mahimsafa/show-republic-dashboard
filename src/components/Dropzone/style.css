@@ -1,0 +1,13 @@
+.dropzone {
+  border: 2px dashed var(--border-color);
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  height: 229px;
+}
+.dropzone .label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--blue-color);
+  margin-bottom: 0px;
+}

@@ -1,0 +1,38 @@
+.delete-account .text-md {
+  font-size: 18px;
+  font-weight: 500;
+  color: #475467;
+  margin-bottom: 0px;
+}
+.delete-account .continue-btn {
+  border-radius: 100px;
+  padding: 8px 14px;
+  background: #1189f4;
+  border: 0px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fcfcfd;
+}
+.delete-account .custom-card {
+  padding: 20px;
+  border-radius: 20px;
+  background: #fcfcfd;
+}
+
+.delete-account .text-sm {
+  font-size: 14px;
+  font-weight: 500;
+  color: #475467;
+  list-style-type: disc;
+}
+@media screen and (max-width: 576px) {
+  .delete-account .custom-card {
+    padding: 0px;
+    background: none;
+    border-radius: 0px;
+  }
+  .delete-account .continue-btn {
+    width: 100%;
+    padding: 8px 0px;
+  }
+}

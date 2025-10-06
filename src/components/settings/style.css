@@ -1,0 +1,65 @@
+.settings {
+  display: flex;
+  align-items: center;
+}
+.settings .tabs-container {
+  padding: 4px;
+  border-radius: 19px;
+  background: #fcfcfd;
+}
+.settings .tab {
+  width: 100%;
+  padding: 4px 12px;
+  border-radius: 44px;
+  background: #f2f4f7;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #7c8080;
+  white-space: nowrap;
+  border: 0px;
+}
+
+.settings .tab.active {
+  background: #1189f4;
+  color: #f1f5ff;
+}
+
+@media screen and (max-width: 576px) {
+  .settings .tabs-container {
+    padding: 0px;
+    border-radius: 0px;
+    background: none;
+  }
+  .settings .tab {
+    padding: 4px 8px;
+    width: fit-content;
+    font-size: 12px;
+  }
+}
+/* Custom styles for Settings component within this layout */
+.custom-settings-layout .settings .tabs-container {
+  padding: 4px;
+  border-radius: 19px;
+  background: #fcfcfd;
+  max-width: 400px;
+}
+
+.custom-settings-layout .settings .tab {
+  width: 100%;
+  padding: 4px 24px;
+  border-radius: 67px;
+  background: #F1F5FF;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  color: #7c8080;
+  white-space: nowrap;
+  border: 0px;
+  margin: 0 5px;
+}
+
+.custom-settings-layout .settings .tab.active {
+  background: #1189f4;
+  color: #f1f5ff;
+}

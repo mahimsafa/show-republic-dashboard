@@ -1,0 +1,19 @@
+.activities-container {
+  width: 300px;
+  background: #ffffff;
+  padding: 24px;
+}
+  .activity-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .section-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 20px;
+  }
+  
+  

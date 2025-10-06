@@ -1,0 +1,40 @@
+.account .custom-card {
+  padding: 20px;
+  border-radius: 20px;
+  background: #fcfcfd;
+}
+.account .text-md {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #475467;
+  margin-bottom: 0px;
+}
+.account .text-md-2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #475467;
+  margin-bottom: 0px;
+}
+.account .text-sm {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #475467;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width:576px) {
+    .account .custom-card{
+        background: none;
+        padding: 0px;
+    }
+    .account .text-md{
+        font-size: 16px;
+    }
+    .account .text-md-2{
+        font-size: 14px;
+    }
+    
+}

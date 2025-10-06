@@ -1,0 +1,131 @@
+.security-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+
+.security-text {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  margin-bottom: 10px !important;
+  color: #667085 !important;
+}
+
+.password-section {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.input-wrapper {
+  position: relative;
+  width: fit-content;
+}
+
+.password-input {
+  width: 382px !important;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #E0E0E0;
+  border-radius: 9px;
+  background-color: #FDFDFD;
+  outline: none;
+  position: relative;
+}
+
+.edit-security-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #949494;
+}
+
+.edit-security-icon i {
+  font-size: 16px;
+}
+
+.edit-password-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+span {
+  color: #7A7A7A;
+  font-size: 15px;
+}
+
+.edit-btn, .update-btn, .cancel-btn {
+  padding: 8px 16px;
+  background-color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.update-btn {
+  background-color: #6FA8FF;
+  color: white;
+  border-radius: 48px;
+  width: 140px;
+  height: 40px;
+}
+
+.cancel-btn {
+  background-color: #FFFFFF;
+  color: #616161;
+  border-radius: 48px;
+  width: 140px;
+  height: 40px;
+}
+
+.button-section {
+  display: flex;
+  gap: 10px;
+}
+
+.two-factor-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.two-factor-enable {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.two-factor-enable-text {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 5px;
+  color: #474747;
+}
+
+.two-factor-btn {
+  padding: 5px 40px;
+  background-color: #6FA8FF;
+  border: none;
+  color: white;
+  font-size: 10px;
+  border-radius: 48px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.two-factor-btn.enabled {
+  background-color: #ff4747;
+}
+
+.two-factor-btn:hover {
+  opacity: 0.9;
+}

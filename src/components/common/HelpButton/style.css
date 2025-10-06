@@ -1,0 +1,11 @@
+.btn-help {
+    height: 100%;
+    padding: 0px 20px;
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 53px;
+    background: var(--card-color);
+    border: 1px solid var(--card-color);
+    white-space: nowrap;
+  }

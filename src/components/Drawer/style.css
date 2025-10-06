@@ -1,0 +1,11 @@
+.offcanvas.offcanvas-start {
+  width: 300px;
+  border-right: none;
+  background: var(--background-color);
+}
+.close-btn {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  font-size: 30px;
+}
