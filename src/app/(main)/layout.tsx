@@ -34,9 +34,7 @@ export default async function AppLayout({ children }: { children: ReactNode }) {
     <ClientWrapper>
       <div className="flex h-screen bg-white">
         {/* Sidebar Section */}
-        <div
-          className="d-none d-lg-block min-h-screen border-r border-gray-300"
-        >
+        <div className="d-none d-lg-block min-h-screen border-r border-gray-300">
           {/* @ts-expect-error ts(2322) */}
           <DashboardSidebar user={data} menuItems={dashboardMenus} />
         </div>
